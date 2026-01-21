@@ -1,0 +1,15 @@
+# Ignore the Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore the Database (Cloud will make its own)
+db.sqlite3
+
+# Ignore the Frontend massive libraries
+node_modules/
+.next/
+.DS_Store
+
+# Ignore Environment variables (Safety)
+.env
